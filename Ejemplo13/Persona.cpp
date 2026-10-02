@@ -11,7 +11,7 @@ Persona::Persona(int e) {
     // Asignar género automáticamente (0 o 1 al azar)
     genero = rand() % 2; 
     
-    // Asignar un DNI automático y muy simple
+    // Asignar un DNI automático
     strcpy(dni, "12345678A");
     
     // Modificamos un número al azar para que no todos los DNI sean exactamente iguales
